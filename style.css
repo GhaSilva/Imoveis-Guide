@@ -1,0 +1,313 @@
+.cabecalho {
+  background-color: #005885;
+  width: auto;
+  height: 42px;
+}
+
+.caixa {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 14px;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 10px;
+  
+}
+
+nav a {
+  text-transform: uppercase;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+form {
+  margin: 40px 0;
+}
+
+.input-block {
+  display: block;
+  margin: 20px 0 20px 40px;
+  padding: 10px 30px;
+  width: 445px;
+  border-color: #abc7d3;
+  border-radius: 7px;
+}
+
+.input-inline {
+  display: inline;
+  margin: 20px 0 0px 40px;
+  padding: 10px 30px;
+  border-color: #abc7d3;
+  border-radius: 7px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.botao {
+  color: white;
+  background-color: #ff8000;
+  border-color: #ff8000;
+  border-radius: 7px;
+  height: 30px;
+  width: 100px;
+  font-weight: bold;
+  margin: 0px 0 0px 445px;
+}
+
+.text-form {
+    padding-top: 30px;
+    padding-bottom: 8px;
+  margin-top: 0px;
+  margin-left: 40px;
+  font-weight: bold;
+  color: #005885;
+}
+
+.inline-components {
+  display: inline;
+}
+
+.corretores {
+  display: inline;
+  vertical-align: top;
+}
+.corretores-block {
+  display: inline-block;
+}
+
+.borda-form {
+  border: 2px solid #abc7d3;
+  border-radius: 7px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  width: 574px;
+  display: inline-block;
+}
+
+.borda-rank {
+  border: 2px solid #abc7d3;
+  border-radius: 7px;
+  height: 464px;
+  width: 294px;
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+footer {
+  background-color: #005885;
+  height: 120px;
+  
+  
+  
+}
+
+.img-rank {
+  border: 2px solid #abc7d3;
+  border-radius: 7px;
+  width: 55px;
+}
+.rank {
+    position: relative;
+    top: 20px;
+    right: 10px;
+  color: #ff8000;
+  font-weight: bold;
+}
+
+.text-rank {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #005885;
+  margin: 20px 0 20px 0;
+}
+
+.rank-corretor {
+  margin-bottom: 200px;
+  margin-left: 30px;
+  height: 58px;
+  
+}
+.alinhamento{
+    height: 58px;
+    margin-top: 12px;
+   
+}
+
+main {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+
+
+form{
+    height: 464px;
+}
+
+.pontuacao{
+    position: relative;
+    top: 20px;
+    color: #ff8000;
+    font-weight: bold;
+}
+
+.img-logo{
+    height: 42px;
+}
+
+.text-corretor{
+    color: #005885;
+    position: relative;
+    left: 5px;
+    top: 5px;
+}
+
+.img-corretor{
+    position: relative;
+    top: 25px;
+    right: 34px;
+}
+
+.menu-cel{
+    background: white;
+    color: white;
+    border: none;
+    display: inline-block;
+}
+
+.img-footer{
+    visibility: hidden;
+    
+    
+}
+
+
+@media screen and (max-width: 480px) {
+    .menu-cel{
+        position: relative;
+        left: 380px;
+        bottom: 42px;
+        
+        border: 1px solid white;
+        border-radius: 7px;
+        background: #005885;
+        color: white;
+        height: 35px;
+        width: 70px;
+        display: inline-block;
+    }
+
+    .caixa, main, form{
+        width: auto;
+    }
+    .cabecalho{
+        width: 480px;
+        height: 42px;
+    }
+    .borda-form{
+        width: auto;
+       margin: 10px 0px 2px 30px;
+        align-items: center;
+        padding: 0 0px 0 20px;
+        height: 600px;
+        
+    }
+    .area-text{
+        height: 250px;
+    }
+
+    .text-form{
+        position: relative;
+        left: 50px;
+    }
+
+    .borda-rank{
+        margin-top: 10px;
+        margin-bottom: 2px;
+        width: max-content;
+        padding: 0 67px 0 105px;
+        margin-left: 30px;
+        margin-bottom: 40px;
+    }
+
+    .input, .input-inline{
+        display: block;
+        width: 320px;
+        align-items: center;
+        padding: auto;
+        margin: 20px 20px 20px 0;
+        margin-top: 20px;
+    }
+
+    .botao{
+        
+        margin: auto;
+    }
+
+    .text-form{
+        width: max-content;
+    }
+
+    li a{
+        visibility: hidden;
+       
+
+    }
+
+    .rank{
+        position: relative;
+        right: 100px;
+    }
+
+    .img-rank{
+        position: relative;
+        right: 85px;
+    }
+
+    .text-corretor{
+        position: relative;
+        left: -80px;
+
+    }
+
+    .img-corretor{
+        position: relative;
+        left: -140px;
+    }
+
+    .pontuacao{
+        position: relative;
+        left: 25px;
+    }
+
+    footer{
+       
+        width: 480px;
+    }
+
+    .img-footer{
+        position: relative;
+        top: 35px;
+        left: 300px;
+        height: 42px;
+    }
+
+
+   
+
+}
